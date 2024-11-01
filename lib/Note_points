@@ -1,0 +1,33 @@
+    Money Mangement app this 
+
+ *transction page 
+   *forme 
+ *categery page 
+    *income 
+    *Expens
+
+
+
+this using the using database in hive . not server saving data onliy 
+
+- 3 type modle   using data modle
+
+
+flutter clean
+flutter build appbundle
+
+Mony Mangement app  updates 
+
+1 - category page delete button edit bouttn add in three docte.
+
+
+
+
+
+
+ String parseDate(DateTime date) {
+    final _date = DateFormat.MMMd().format(date);
+    final _spliteDate = _date.split('');
+    return '${_spliteDate.last}\n${_spliteDate.first}';
+  }
+  
